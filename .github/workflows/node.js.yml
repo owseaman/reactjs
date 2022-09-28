@@ -34,7 +34,8 @@ jobs:
     - run: npm install --save-dev --save-exact prettier
     - run: echo {}> .prettierrc.json
     - run: npm run prettier
-    - name: Build stage
-      run: npm run build
     - name: testing stage
       run: npm run test
+    - name: Build stage
+      run: npm run build
+
