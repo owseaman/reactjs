@@ -36,3 +36,5 @@ jobs:
     - run: npm run prettier
     - name: Build stage
       run: npm run build
+    - name: testing stage
+      run: npm run test
